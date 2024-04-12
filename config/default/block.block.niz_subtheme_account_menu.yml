@@ -1,0 +1,27 @@
+uuid: 51ab1837-0d96-46fb-97d1-551ed070ff5a
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: kdyJlFWizj_z3QXFrDSyQF0Vb3cRqX7OwUumeUacqI8
+id: niz_subtheme_account_menu
+theme: niz_subtheme
+region: nav_additional
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

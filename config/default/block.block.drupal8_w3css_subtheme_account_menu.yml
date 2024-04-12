@@ -1,0 +1,27 @@
+uuid: 1d505b6e-4c45-45bb-bf2b-88ffd0ebfd5e
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+_core:
+  default_config_hash: tSBzrrtzR5T5J4udKazBEykZ0ew9Xr0P4e6F8NPNNx8
+id: drupal8_w3css_subtheme_account_menu
+theme: drupal8_w3css_subtheme
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

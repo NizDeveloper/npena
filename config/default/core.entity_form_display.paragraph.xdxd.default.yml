@@ -1,0 +1,24 @@
+uuid: c850c829-2149-445d-9e7a-d48f52dce7e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.xdxd.field_imagen
+    - paragraphs.paragraphs_type.xdxd
+  module:
+    - media_library
+id: paragraph.xdxd.default
+targetEntityType: paragraph
+bundle: xdxd
+mode: default
+content:
+  field_imagen:
+    type: media_library_widget
+    weight: 0
+    region: content
+    settings:
+      media_types: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,30 @@
+uuid: 8123dc52-d510-4dd9-b82f-68be62d14b6f
+langcode: en
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_theme_row
+field_name: field_theme_row
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: claro
+      label: Claro
+    -
+      value: zulepe
+      label: Zulepe
+    -
+      value: imanol
+      label: Imanol
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

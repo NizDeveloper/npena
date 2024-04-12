@@ -1,0 +1,29 @@
+uuid: 395f09a3-404b-4dd2-b8a2-70f9036c1461
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_footer_top
+    - field.field.block_content.block_footer_top.field_footer_link
+  module:
+    - link
+id: block_content.block_footer_top.default
+targetEntityType: block_content
+bundle: block_footer_top
+mode: default
+content:
+  field_footer_link:
+    type: link
+    label: above
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

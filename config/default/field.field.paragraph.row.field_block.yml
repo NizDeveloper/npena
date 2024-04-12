@@ -1,0 +1,50 @@
+uuid: cf787d79-bd15-4946-871a-0ff3793c930b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_block
+    - paragraphs.paragraphs_type.accordion_block
+    - paragraphs.paragraphs_type.hero_slider
+    - paragraphs.paragraphs_type.row
+    - paragraphs.paragraphs_type.wysiwyg_block
+  module:
+    - entity_reference_revisions
+id: paragraph.row.field_block
+field_name: field_block
+entity_type: paragraph
+bundle: row
+label: block
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      hero_slider: hero_slider
+      accordion_block: accordion_block
+      wysiwyg_block: wysiwyg_block
+    negate: 0
+    target_bundles_drag_drop:
+      accordion_block:
+        weight: 7
+        enabled: true
+      accordion_item:
+        weight: 6
+        enabled: false
+      code_html:
+        weight: 8
+        enabled: false
+      hero_slider:
+        weight: 7
+        enabled: true
+      row:
+        weight: 9
+        enabled: false
+      wysiwyg_block:
+        weight: 10
+        enabled: true
+field_type: entity_reference_revisions

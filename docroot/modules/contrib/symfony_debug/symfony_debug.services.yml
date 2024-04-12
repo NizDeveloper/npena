@@ -1,0 +1,5 @@
+services:
+  symfony_debug.kernel_subscriber:
+    class: Drupal\symfony_debug\EventSubscriber\KernelEventSubscriber
+    tags:
+      - {name: event_subscriber}

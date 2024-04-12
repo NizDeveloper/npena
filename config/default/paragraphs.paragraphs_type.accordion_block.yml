@@ -1,0 +1,10 @@
+uuid: 37962def-35c8-4089-aa88-6414bb45e415
+langcode: en
+status: true
+dependencies: {  }
+id: accordion_block
+label: 'Accordion Block'
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

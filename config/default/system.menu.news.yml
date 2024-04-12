@@ -1,0 +1,8 @@
+uuid: 0c6a027f-c93e-401e-bcbd-c6dd6311ca8f
+langcode: en
+status: true
+dependencies: {  }
+id: news
+label: News
+description: ''
+locked: false

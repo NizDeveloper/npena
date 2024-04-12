@@ -1,0 +1,22 @@
+uuid: 7ce0c5be-ad46-40d5-9bc9-d3905c16b704
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: U6QLbvYSJXOONmqTaoo7cQdcGuIBq1pkMfVIX-Ay4qM
+id: niz_subtheme_content
+theme: niz_subtheme
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

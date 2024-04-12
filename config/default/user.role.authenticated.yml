@@ -1,0 +1,24 @@
+uuid: 070bdee4-3d04-4ad6-b3d6-ae019d1939b7
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.ckeditor_5
+    - filter.format.webform_default
+  module:
+    - filter
+    - fontawesome
+    - media
+    - system
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Authenticated user'
+weight: 1
+is_admin: false
+permissions:
+  - 'access content'
+  - 'access fontawesome additional settings'
+  - 'use text format ckeditor_5'
+  - 'use text format webform_default'
+  - 'view media'

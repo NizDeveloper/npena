@@ -1,0 +1,35 @@
+uuid: c37ba026-50a2-413d-882e-f3eca75ecdfb
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+    - user
+  theme:
+    - niz_custom
+_core:
+  default_config_hash: YRZjNp4d68NjJAVhrrUrXKwpV12i7OFWg4MY6Bsd0mw
+id: niz_custom_account_menu
+theme: niz_custom
+region: sidebar_first
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

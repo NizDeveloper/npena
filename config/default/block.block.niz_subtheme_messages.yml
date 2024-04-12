@@ -1,0 +1,22 @@
+uuid: abdee5d1-8b12-474b-bcec-ef7a8471054e
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: mnRs_4xiK3fEPsP5k-9xf-2jlznRjZpDmtR40FfYv_s
+id: niz_subtheme_messages
+theme: niz_subtheme
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Messages
+  label_display: '0'
+  provider: system
+visibility: {  }

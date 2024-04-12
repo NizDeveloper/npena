@@ -1,0 +1,14 @@
+uuid: 0d00d2af-eeed-4b35-a8a8-82a02d83cc6a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_footer_social
+id: block_content.block_footer_social.default
+targetEntityType: block_content
+bundle: block_footer_social
+mode: default
+content: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

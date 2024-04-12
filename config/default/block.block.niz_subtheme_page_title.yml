@@ -1,0 +1,20 @@
+uuid: 58e28fd0-57d7-4b76-92ab-94bfa77232c4
+langcode: en
+status: true
+dependencies:
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: vSS-7oSzvoFzRRGv6G3PLndiwjlek65uoDEO1XB1qYY
+id: niz_subtheme_page_title
+theme: niz_subtheme
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

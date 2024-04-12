@@ -1,0 +1,25 @@
+uuid: 5f855d1e-7927-4721-b60b-9fff0b18115f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: pIckHfMS1hAWFv34K5QI4xOrls_qNuZ0h-Paz2N5jVc
+id: niz_subtheme_branding
+theme: niz_subtheme
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

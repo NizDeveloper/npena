@@ -1,0 +1,24 @@
+uuid: beb1b850-9b8d-4544-9948-339dfd63721a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_wysiwyg
+    - filter.format.ckeditor_5
+    - paragraphs.paragraphs_type.wysiwyg_block
+  module:
+    - text
+id: paragraph.wysiwyg_block.field_wysiwyg
+field_name: field_wysiwyg
+entity_type: paragraph
+bundle: wysiwyg_block
+label: WYSIWYG
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - ckeditor_5
+field_type: text_long

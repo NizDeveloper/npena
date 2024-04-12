@@ -1,0 +1,22 @@
+uuid: 36c05171-49c1-4863-95b6-4e188d859f35
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: q2nPQPxS5smKVXXKNjaDjKOVDRZKpobEQqv20gMJu3A
+id: niz_subtheme_breadcrumbs
+theme: niz_subtheme
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

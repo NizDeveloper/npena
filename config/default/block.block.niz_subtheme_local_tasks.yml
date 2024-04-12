@@ -1,0 +1,22 @@
+uuid: 053698ad-0d8e-4c6b-ab6e-49c233d2233b
+langcode: en
+status: true
+dependencies:
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: '-fl9UUIAZiyn0m7lFhmmcMnmMDnfhpuvTntOeeetJYg'
+id: niz_subtheme_local_tasks
+theme: niz_subtheme
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

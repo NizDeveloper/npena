@@ -1,0 +1,25 @@
+uuid: da92f381-deff-4f7f-bedd-ac3043d294fa
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-social
+  module:
+    - system
+  theme:
+    - niz_custom
+id: niz_custom_footersocial
+theme: niz_custom
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-social'
+settings:
+  id: 'system_menu_block:footer-social'
+  label: 'Footer social'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

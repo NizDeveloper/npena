@@ -1,0 +1,28 @@
+uuid: e2e5f4b3-a032-43ab-9f76-3e82e6b05ebc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_html
+    - filter.format.ckeditor_5
+    - filter.format.plain_text
+    - filter.format.webform_default
+    - paragraphs.paragraphs_type.code_html
+  module:
+    - text
+id: paragraph.code_html.field_html
+field_name: field_html
+entity_type: paragraph
+bundle: code_html
+label: html
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - ckeditor_5
+    - plain_text
+    - webform_default
+field_type: text_long

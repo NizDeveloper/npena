@@ -1,0 +1,30 @@
+uuid: 267deb4f-5ecc-4de4-ba81-e7368e6d6076
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pagina.body
+    - node.type.pagina
+  module:
+    - text
+    - user
+id: node.pagina.default
+targetEntityType: node
+bundle: pagina
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

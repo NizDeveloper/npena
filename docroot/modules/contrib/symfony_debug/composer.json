@@ -1,0 +1,9 @@
+{
+    "name": "drupal/symfony_debug",
+    "type": "drupal-module",
+    "description": "Replace Drupal default error handler with the Symfony Debug component",
+    "license": "GPL-2.0-or-later",
+    "require-dev": {
+        "vijaycs85/drupal-quality-checker": "^1.3"
+    }
+}

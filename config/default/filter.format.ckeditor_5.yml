@@ -1,0 +1,17 @@
+uuid: ec4e9b6a-df34-4095-965e-ab22fbe79e61
+langcode: en
+status: true
+dependencies: {  }
+name: 'CKEditor 5'
+format: ckeditor_5
+weight: -10
+filters:
+  filter_html:
+    id: filter_html
+    provider: filter
+    status: false
+    weight: -10
+    settings:
+      allowed_html: ''
+      filter_html_help: true
+      filter_html_nofollow: false

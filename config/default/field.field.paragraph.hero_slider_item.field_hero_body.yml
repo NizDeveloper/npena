@@ -1,0 +1,19 @@
+uuid: 46aa309d-1daf-4257-864a-2e8e7eff4e8e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_hero_body
+    - paragraphs.paragraphs_type.hero_slider_item
+id: paragraph.hero_slider_item.field_hero_body
+field_name: field_hero_body
+entity_type: paragraph
+bundle: hero_slider_item
+label: 'Hero body'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,25 @@
+uuid: 5a969c26-a8ca-4cee-ae52-f9ce725e5f98
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_custom
+_core:
+  default_config_hash: nuW1Z5MdvzbCCEZ9RQojaEWB6Zni32zTq-v5OWbS2sc
+id: niz_custom_branding
+theme: niz_custom
+region: sidebar_first
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

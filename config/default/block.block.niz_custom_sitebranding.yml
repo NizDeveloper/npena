@@ -1,0 +1,23 @@
+uuid: e06afd58-6c9a-4be4-b516-e7ddbd700bbc
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_custom
+id: niz_custom_sitebranding
+theme: niz_custom
+region: header
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: true
+visibility: {  }

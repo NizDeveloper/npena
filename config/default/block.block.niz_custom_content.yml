@@ -1,0 +1,22 @@
+uuid: 8c949f4d-0b05-42c5-818d-90a1b1855360
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_custom
+_core:
+  default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
+id: niz_custom_content
+theme: niz_custom
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

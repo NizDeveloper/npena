@@ -1,0 +1,23 @@
+uuid: b775a12b-e268-472c-afc0-5abc9a9824ea
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_padding_bottom
+    - paragraphs.paragraphs_type.row
+  module:
+    - options
+id: paragraph.row.field_padding_bottom
+field_name: field_padding_bottom
+entity_type: paragraph
+bundle: row
+label: 'Padding Bottom'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: normal
+default_value_callback: ''
+settings: {  }
+field_type: list_string

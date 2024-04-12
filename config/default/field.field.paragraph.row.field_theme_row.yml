@@ -1,0 +1,23 @@
+uuid: 3d0711e8-5829-482b-9d61-829b5d845e72
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_theme_row
+    - paragraphs.paragraphs_type.row
+  module:
+    - options
+id: paragraph.row.field_theme_row
+field_name: field_theme_row
+entity_type: paragraph
+bundle: row
+label: Background
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: claro
+default_value_callback: ''
+settings: {  }
+field_type: list_string

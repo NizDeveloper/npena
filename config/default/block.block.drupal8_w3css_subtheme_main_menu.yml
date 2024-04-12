@@ -1,0 +1,27 @@
+uuid: 18635f94-e7ee-462d-bf98-e6f89cabbf42
+langcode: en
+status: false
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - drupal8_w3css_subtheme
+_core:
+  default_config_hash: d1YBWkT-Xltc40K8rF69EzKs_E2j6SSKsq3cXwfZCzQ
+id: drupal8_w3css_subtheme_main_menu
+theme: drupal8_w3css_subtheme
+region: primary_menu
+weight: 10
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: false
+visibility: {  }

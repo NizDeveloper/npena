@@ -1,0 +1,20 @@
+uuid: 41cfa0d4-ce44-444b-8488-d897aa3db01e
+langcode: en
+status: true
+dependencies:
+  theme:
+    - niz_custom
+_core:
+  default_config_hash: MBqG1B5mr5-fPSCDyTR6z2zVTRxZ10XeS_pAw6C7za4
+id: niz_custom_local_actions
+theme: niz_custom
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

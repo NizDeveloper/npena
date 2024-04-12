@@ -1,0 +1,27 @@
+{% block content %}
+  <div class="navbar-brand d-flex align-items-center bg-dark justify-content-between px-4">
+    <div class="d-flex align-items-center justify-content-between">
+      {% if site_logo %}
+        <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-logo d-inline-block">
+          <img src="{{ site_logo }}" alt="{{ 'Home'|t }}" />
+        </a>
+      {% endif %}
+
+      <div class="d-inline-block">
+        {% if site_name %}
+        <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home" class="site-title text-capitalize text-white">
+          {{ site_name }}
+        </a>
+        {% endif %}
+
+        {% if site_slogan %}
+        <div class="site-slogan">{{ site_slogan }}</div>
+        {% endif %}
+      </div>
+    </div>
+    
+    <div>
+      <a href="#" class="btn btn-primary">XD</a>
+    </div>
+  </div>
+{% endblock %}

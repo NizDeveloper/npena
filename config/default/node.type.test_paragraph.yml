@@ -1,0 +1,18 @@
+uuid: 18bca5cb-8f22-4f97-8444-15df2d52c948
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Test Paragraph'
+type: test_paragraph
+description: Testing
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,27 @@
+uuid: b1f0ea91-5657-45ef-bba9-19a5fa07e685
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - drupal8_w3css_theme
+id: drupal8_w3css_theme_userlogin_2
+theme: drupal8_w3css_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

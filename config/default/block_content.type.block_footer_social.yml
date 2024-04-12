@@ -1,0 +1,8 @@
+uuid: 4db42a1b-8279-4c63-9a96-1cb64e38a404
+langcode: en
+status: true
+dependencies: {  }
+id: block_footer_social
+label: 'Block Footer Social'
+revision: 0
+description: ''

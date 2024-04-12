@@ -1,0 +1,58 @@
+.Imanol{
+  background-color: #000;
+  color: #fff;
+}
+
+.Claro{
+  background-color: #fff;
+  color: #000;
+}
+
+.Zulepe {
+  background-color: blue;
+  color: #fff;
+}
+
+.padding-top-None {
+  padding-top: 0px;
+}
+
+.padding-bottom-Bottom {
+  padding-bottom: 0px;
+}
+
+.padding-top-Normal {
+  padding-top: 80px;
+}
+
+.padding-bottom-Normal {
+  padding-bottom: 80px;
+}
+
+/*
+ * Limiters
+ */
+  .limiter-limiter-none{
+    width: 100%;
+  }
+
+  .limiter-730px{
+    max-width: 730px;
+  }
+
+  .limiter-920px{
+    max-width: 920px;
+  }
+
+  .limiter-1110px{
+    max-width: 1110px;
+  }
+
+  .limiter-1370px{
+    max-width: 1370px;
+  }
+
+  .limiter {
+    margin: 0 auto;
+  }
+/* Limiters */

@@ -1,0 +1,24 @@
+uuid: d0cf742d-f523-4b10-bedb-87ccd7c4eeb9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_content
+    - filter.format.ckeditor_5
+    - paragraphs.paragraphs_type.accordion_item
+  module:
+    - text
+id: paragraph.accordion_item.field_content
+field_name: field_content
+entity_type: paragraph
+bundle: accordion_item
+label: content
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - ckeditor_5
+field_type: text_long

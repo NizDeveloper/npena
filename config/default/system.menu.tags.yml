@@ -1,0 +1,8 @@
+uuid: a55dac80-6fe3-4efe-ac92-545ae86faec9
+langcode: en
+status: true
+dependencies: {  }
+id: tags
+label: Tags
+description: ''
+locked: false

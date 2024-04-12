@@ -1,0 +1,41 @@
+uuid: 27ef6a04-f92f-44d7-8d0a-bb20e0b5f605
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.user.full
+    - field.field.user.user.field_age
+    - field.field.user.user.field_photo
+  module:
+    - user
+id: user.user.full
+targetEntityType: user
+bundle: user
+mode: full
+content:
+  field_age:
+    type: number_integer
+    label: inline
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_photo:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  member_for:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden:
+  langcode: true
+  search_api_excerpt: true

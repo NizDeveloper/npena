@@ -1,0 +1,22 @@
+{%
+  set classes = [
+    'paragraph',
+    'paragraph--type--' ~ paragraph.bundle|clean_class,
+    view_mode ? 'paragraph--view-mode--' ~ view_mode|clean_class,
+    not paragraph.isPublished() ? 'paragraph--unpublished',
+    content.field_theme_row.0['#markup'],
+    'padding-top-' ~ content.field_padding_top.0['#markup'],
+    'padding-bottom-' ~ content.field_padding_bottom.0['#markup']
+  ]
+%}
+
+{% block paragraph %}
+  <div{{ attributes.addClass(classes) }}>
+    {% block content %}
+      <div class="limiter limiter-{{ content.field_limiter_style.0['#markup'] }}">
+        {{ content.field_block }}
+      </div>
+    {% endblock %}
+  </div>
+{% endblock paragraph %}
+

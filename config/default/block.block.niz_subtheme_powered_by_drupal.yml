@@ -1,0 +1,22 @@
+uuid: 33093899-f811-434e-b44c-b9e05e341f70
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: J0Noh_2f6gZ4LV_wulq-0FlytL0vSACxRig2WKvdnXw
+id: niz_subtheme_powered_by_drupal
+theme: niz_subtheme
+region: footer
+weight: 0
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

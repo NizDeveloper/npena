@@ -1,0 +1,21 @@
+name: 'Niz Custom'
+type: theme
+base theme: bootstrap5
+description: 'Subtema a partir de bootstrap5'
+core_version_requirement: ^10
+libraries:
+ - niz_custom/global-styling
+
+regions:
+  header: Header
+  nav_branding: 'Navigation branding region'
+  nav_main: 'Main navigation region'
+  nav_additional: 'Additional navigation region (eg search form, social icons, etc)'
+  breadcrumb: Breadcrumbs
+  content: 'Main content'
+  highlighted: Highlighted
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer_top: 'Footer top'
+  footer: Footer
+  footer_bottom: 'Footer bottom'

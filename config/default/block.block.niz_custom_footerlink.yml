@@ -1,0 +1,25 @@
+uuid: 5ae5d2ca-5296-4a7e-a537-b2370deb8784
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.footer-link
+  module:
+    - system
+  theme:
+    - niz_custom
+id: niz_custom_footerlink
+theme: niz_custom
+region: footer_top
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer-link'
+settings:
+  id: 'system_menu_block:footer-link'
+  label: 'Footer link'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

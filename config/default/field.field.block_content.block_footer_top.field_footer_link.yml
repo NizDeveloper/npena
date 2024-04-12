@@ -1,0 +1,23 @@
+uuid: 429fa82c-3e6b-4012-9344-9fee4152eb1d
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_footer_top
+    - field.storage.block_content.field_footer_link
+  module:
+    - link
+id: block_content.block_footer_top.field_footer_link
+field_name: field_footer_link
+entity_type: block_content
+bundle: block_footer_top
+label: 'Footer Link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

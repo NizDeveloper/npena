@@ -1,0 +1,22 @@
+uuid: 8446cb3d-e6eb-4f4a-b0c5-93bcd1ff03ac
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: 2-OJfG-7G47bj0Y69Afi5n77xJP_W5ZtZuMdRQawWRE
+id: niz_subtheme_help
+theme: niz_subtheme
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

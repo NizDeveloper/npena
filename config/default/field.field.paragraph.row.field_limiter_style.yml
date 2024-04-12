@@ -1,0 +1,23 @@
+uuid: 23c63b4e-986c-4ed6-ad0f-7da86d59bd70
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_limiter_style
+    - paragraphs.paragraphs_type.row
+  module:
+    - options
+id: paragraph.row.field_limiter_style
+field_name: field_limiter_style
+entity_type: paragraph
+bundle: row
+label: 'Limiter Style'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1110
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

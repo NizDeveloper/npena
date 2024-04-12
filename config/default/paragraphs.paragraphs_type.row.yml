@@ -1,0 +1,10 @@
+uuid: ee22aaac-9eb7-422d-b23b-cb3e218525c3
+langcode: en
+status: true
+dependencies: {  }
+id: row
+label: Row
+icon_uuid: null
+icon_default: null
+description: 'A Row of Content'
+behavior_plugins: {  }

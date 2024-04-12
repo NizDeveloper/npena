@@ -1,0 +1,25 @@
+uuid: d5957a9a-88f7-4bf9-8b34-80a33e7f5af3
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.additional-navigation
+  module:
+    - system
+  theme:
+    - niz_custom
+id: niz_custom_additionalnavigation
+theme: niz_custom
+region: header
+weight: -6
+provider: null
+plugin: 'system_menu_block:additional-navigation'
+settings:
+  id: 'system_menu_block:additional-navigation'
+  label: 'Additional Navigation'
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

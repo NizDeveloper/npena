@@ -1,0 +1,27 @@
+uuid: b4adb5be-6400-43c0-8ea2-89d73d5782b2
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - niz_subtheme
+_core:
+  default_config_hash: '-nIEgNeUIFIWiGM9O-9f9EGAlm7V_nymPhMzOxlJH5Y'
+id: niz_subtheme_main_navigation
+theme: niz_subtheme
+region: nav_main
+weight: 0
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: true
+visibility: {  }

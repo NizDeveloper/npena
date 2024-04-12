@@ -1,0 +1,27 @@
+uuid: f2cc5f49-735c-4355-86b5-308c414b41f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+  theme:
+    - niz_subtheme
+id: niz_subtheme_userlogin
+theme: niz_subtheme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: user_login_block
+settings:
+  id: user_login_block
+  label: 'User login'
+  label_display: visible
+  provider: user
+visibility:
+  user_role:
+    id: user_role
+    negate: false
+    context_mapping:
+      user: '@user.current_user_context:current_user'
+    roles:
+      anonymous: anonymous

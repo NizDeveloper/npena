@@ -1,0 +1,23 @@
+uuid: 98147126-99ac-47af-862e-391f44029643
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wysiwyg_block.field_wysiwyg
+    - paragraphs.paragraphs_type.wysiwyg_block
+  module:
+    - text
+id: paragraph.wysiwyg_block.default
+targetEntityType: paragraph
+bundle: wysiwyg_block
+mode: default
+content:
+  field_wysiwyg:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  search_api_excerpt: true

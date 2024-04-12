@@ -1,0 +1,11 @@
+uuid: c6f58d5b-f101-4b70-8912-a1bfa5fa0e16
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.block_footer_top
+id: block_content.block_footer_top
+target_entity_type_id: block_content
+target_bundle: block_footer_top
+default_langcode: site_default
+language_alterable: false
