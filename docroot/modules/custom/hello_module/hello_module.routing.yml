@@ -1,0 +1,17 @@
+hello_module.welcome:
+  path: '/hola/sosa'
+  defaults:
+    _controller: 'Drupal\hello_module\Controller\WelcomeController::welcome'
+    _title: ''
+  requirements:
+    _permission: 'access content'
+  options: 
+    no_cache: 'TRUE'
+
+hello_module.admin_settings:
+  path: '/admin/sosa/config'
+  defaults:
+    _form: '\Drupal\hello_module\Form\Hello_ModuleConfigurationForm'
+    _title: 'Configuración'
+  requirements:
+    _permission: 'administer site configuration'

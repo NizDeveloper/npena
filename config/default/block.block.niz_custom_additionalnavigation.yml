@@ -1,6 +1,6 @@
 uuid: d5957a9a-88f7-4bf9-8b34-80a33e7f5af3
 langcode: en
-status: true
+status: false
 dependencies:
   config:
     - system.menu.additional-navigation
